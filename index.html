@@ -11,7 +11,15 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+        .hfont{
+            font-family: "ADLaM Display", serif;
+        }
+        .bfont{
+            font-family: "Sora", serif;
+        }
+    </style>
     <!-- Config -->
     <script>
         tailwind.config = {
@@ -19,17 +27,53 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-              }
-            }
-          }
+                bgnav: '#FFF9F4',
+                butn: '#FFDC26',
+              },
+            },
+          },
         }
       </script>
 </head>
-<body>
+<body class="bfont">
     <!-- Header Section -->
-    <header></header>
+    <header>
+        <div>
+            <nav class="bg-bgnav">
+                <div class="navbar md:container md:mx-auto">
+                    <div class="navbar-start space-x-3">
+                      <div><img class="max-w-full" src="c1-assets/logo-header.png" alt="header logo"></div>
+                      <div class="text-2xl">Browse<span class="text-butn">4</span>Pets</div>
+                    </div>
+                    <div class="navbar-center hidden md:block">
+                      <ul class="grid grid-cols-3 gap-6 text-1xl">
+                        <li><a href="#">Find a pet</a></li>
+                        <li><a href="#">Breeds</a></li>
+                        <li><a href="#">Contact us</a></li>
+                      </ul>
+                    </div>
+                    <div class="navbar-end space-x-2 ">
+                      <div class="text-xl grid grid-cols-2 gap-2">
+                        <div><i class="fas fa-bell"></i></div>
+                        <div><i class="fas fa-search"></i></div>
+                      </div>
+                      <div class="space-x-2 grid grid-cols-2 text-end">
+                        <button class="border-solid border-2 border-butn px-2 rounded">Login</button>
+                        <button class="btn bg-butn">Register</button>
+                      </div>
+                    </div>
+                    <div class="text-1xl sm:hidden text-end">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </header>
     <!-- Main Section -->
-    <main></main>
+    <main class="md:container md:mx-auto">
+        
+    </main>
     <!-- Footer Section -->
     <footer></footer>
     
