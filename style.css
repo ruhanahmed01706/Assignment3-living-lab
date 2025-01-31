@@ -1,0 +1,7 @@
+/* style="background: url(c1-assets/cat-big.png); background-position: center; background-size: cover;background-repeat: no-repeat; width: 100%;" */
+
+@media screen and (max-width:576px){
+    .banner{
+       max-width: 100%;
+    }
+}
