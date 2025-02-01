@@ -64,10 +64,220 @@
             <button class="p-[10px_30px] rounded-lg bg-butn hover:underline">Register</button>
           </div>
         </div>
-        <i class="fa-solid fa-bars lg:hidden text-2xl"></i>
+        <i class="fas fa-bars lg:hidden text-2xl"></i>  <!--=== Problem ===-->
       </nav>
     </div>
   </header>
+
+  <!-- banner Section -->
+  <section class="container sm:mx-auto mt-20 relative">
+    <div class="banner-content md:w-[640px]">
+      <h1 class="font-adlam text-[30px] sm:text-[56px] leading-tight mb-5">Pamper Your Pet, Because They Deserve The Best</h1>
+      <p class="font-sora text-base sm:text-xl">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+      <button class="p-[10px_30px] rounded-lg bg-butn hover:underline mt-10 font-medium">Find a pet</button>
+    </div>
+    <div class="banner-image absolute top-[220px] lg:left-[100px] lg:top-[20px]">
+      <img class="lg:w-[1000px]" src="c1-assets/cat-big-removebg-preview.png" alt="cat image">
+    </div>
+  </section>
+
+  <!-- category -->
+  <div class="container sm:mx-auto ">
+    <div class="category-content mt-[200px] sm:mt-[300px]"> <!-- banner image is absolute for this using margin top-->
+      <h1 class="font-adlam text-2xl sm:text-4xl font-medium mb-[48px]">Browse By Categories</h1>
+      <div class="cards grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-6 gap-2">
+        <div class="card1 mx-auto rounded-xl p-[34px_48px] box-border w-[250px] sm:w-[170px] bg-cabg flex flex-col justify-center items-center">
+          <div class="bg-white p-4 rounded-full mb-2"><img src="c1-assets/dog-cartoon.png" alt="dog-carton"></div>
+          <div>
+            <h3 class="text-center">Dog</h3>
+            <p class="text-center">3 items</p>
+          </div>
+        </div>
+        <div  class="card2 mx-auto  rounded-xl p-[34px_48px] box-border w-[250px] sm:w-[170px] bg-cabg flex flex-col justify-center items-center">
+          <div class="bg-white p-4 rounded-full mb-2"><img src="c1-assets/mouse-cartoon.png" alt="fish-cartoon"></div>
+          <div>
+            <h3 class="text-center">Fish</h3>
+            <p class="text-center">3 items</p>
+          </div>
+        </div>
+        <div  class="card3 mx-auto  rounded-xl p-[34px_48px] box-border w-[250px] sm:w-[170px] bg-cabg flex flex-col justify-center items-center">
+          <div class="bg-white p-4 rounded-full mb-2"><img src="c1-assets/rabbit-cartoon.png" alt="mouse-cartoon"></div>
+          <div>
+            <h3 class="text-center">Mouse</h3>
+            <p class="text-center">3 items</p>
+          </div>
+        </div>
+        <div  class="card4 mx-auto  rounded-xl p-[34px_48px] box-border w-[250px] sm:w-[170px] bg-cabg flex flex-col justify-center items-center">
+          <div class="bg-white p-4 rounded-full mb-2"><img src="c1-assets/fish-cartoon.png" alt="rabbit-cartoon"></div>
+          <div>
+            <h3 class="text-center">Rabbit</h3>
+            <p class="text-center">3 items</p>
+          </div>
+        </div>
+        <div  class="card5 mx-auto  rounded-xl p-[34px_48px] box-border w-[250px] sm:w-[170px] bg-cabg flex flex-col justify-center items-center">
+          <div class="bg-white p-4 rounded-full mb-2"><img src="c1-assets/cat-cartoon.png" alt="bird-cartoon"></div>
+          <div>
+            <h3 class="text-center">Bird</h3>
+            <p class="text-center">3 items</p>
+          </div>
+        </div>
+        <div  class="card6  mx-auto rounded-xl p-[34px_48px] box-border w-[250px] sm:w-[170px] bg-cabg flex flex-col justify-center items-center">
+          <div class="bg-white p-4 rounded-full mb-2"><img src="c1-assets/bird-cartoon.png" alt="cat-cartoon"></div>
+          <div>
+            <h3 class="text-center">Cat</h3>
+            <p class="text-center">3 items</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Trending Pet Products -->
+<section class="products  mt-32 bg-bgnav ">
+  <div class="products-container container sm:max-auto sm:p-20 md:p-28">  <!--padding 12 responsive off-->
+    <h1 class="text-2xl sm:text-4xl font-medium mb-[48px]">Trending Pet Products</h1>
+
+    <!-- Product Cards -->
+    <div class="product-cards lg:h-[400px] grid lg:grid-cols-5 lg:grid-rows-3 gap-4">
+      <div class="card1 relative col-span-2 row-span-3 p-5 bg-cabg lg:flex justify-between rounded-lg">
+        <div class="card1-content lg:mt-10 h-[50px] ">
+          <h3 class="text-3xl font-medium mb-3">T-Shirt For Dog</h3>
+          <p class="">Buy medicine, essential <br> products for your pet.</p>
+          <button class="font-semibold bg-white py-2 px-5 rounded-lg mt-2 cursor-pointer">Shop Now</button>
+        </div>
+        <img  class=" w-[200px] h-[300px] relative left-24 lg:absolute lg:bottom-0 lg:right-5" src="c1-assets/cute-pet-small.png" alt="T-Shirt For Dog">
+      </div>
+      
+      <div class="card2 col-span-1 bg-white flex  px-6 py-3  justify-between items-center rounded-md">
+        <div class="card-image mr-6">
+          <img class="bg-bgnav p-3 rounded-full" src="c1-assets/fish-cartoon.png" alt="bird-cartoon">
+        </div>
+        <div class="card-content">
+          <div class="flex items-center">
+            <img class="w-5 mb-2" src="c1-assets/star.png" alt="star rating">
+            <p class="font-semibold text-base ml-3 mb-2">4.5</p>
+          </div>
+          <h3 class="font-semibold text-xl mb-2">Fish</h3>
+          <p class="text-base font-medium mb-2">$32.90</p>
+        </div>
+      </div>
+      
+      <div class="card3 col-span-1 bg-white flex px-6 py-3  justify-between items-center rounded-md">
+        <div class="card-image mr-6">
+          <img class="bg-bgnav p-3 rounded-full" src="c1-assets/dog-cartoon.png" alt="dog-carton">
+        </div>
+        <div class="card-content">
+          <div class="flex items-center">
+            <img class="w-5 mb-2" src="c1-assets/star.png" alt="star rating">
+            <p class="font-semibold text-base ml-3 mb-2">4.5</p>
+          </div>
+          <h3 class="font-semibold text-xl mb-2">Dog</h3>
+          <p class="text-base font-medium mb-2">$32.90</p>
+        </div>
+      </div>
+      
+      <div class="card4 col-span-1 bg-white flex px-6 py-3  justify-between items-center rounded-md">
+        <div class="card-image mr-6">
+          <img class="bg-bgnav p-3 rounded-full" src="c1-assets/bird-cartoon.png" alt="bird-cartoon">
+        </div>
+        <div class="card-content">
+          <div class="flex items-center">
+            <img class="w-5 mb-2" src="c1-assets/star.png" alt="star rating">
+            <p class="font-semibold text-base ml-3 mb-2">4.5</p>
+          </div>
+          <h3 class="font-semibold text-xl mb-2">Bird</h3>
+          <p class="text-base font-medium mb-2">$32.90</p>
+        </div>
+      </div>
+      
+      <div class="card5 col-span-1 bg-white flex px-6 py-3  justify-between items-center rounded-md">
+        <div class="card-image mr-6">
+          <img class="bg-bgnav p-3 rounded-full" src="c1-assets/rabbit-cartoon.png" alt="rabbit-cartoon">
+        </div>
+        <div class="card-content">
+          <div class="flex items-center">
+            <img class="w-5 mb-2" src="c1-assets/star.png" alt="star rating">
+            <p class="font-semibold text-base ml-3 mb-2">4.5</p>
+          </div>
+          <h3 class="font-semibold text-xl mb-2">Rabbit</h3>
+          <p class="text-base font-medium mb-2">$32.90</p>
+        </div>
+      </div>
+      
+      <div class="card6 col-span-1 bg-white flex px-6 py-3  justify-between items-center rounded-md">
+        <div class="card-image mr-6">
+          <img class="bg-bgnav p-3 rounded-full" src="c1-assets/mouse-cartoon.png" alt="mouse-cartoon">
+        </div>
+        <div class="card-content">
+          <div class="flex items-center">
+            <img class="w-5 mb-2" src="c1-assets/star.png" alt="star rating">
+            <p class="font-semibold text-base ml-3 mb-2">4.5</p>
+          </div>
+          <h3 class="font-semibold text-xl mb-2">Mouse</h3>
+          <p class="text-base font-medium mb-2">$32.90</p>
+        </div>
+      </div>
+      
+      <div class="card7 col-span-1 bg-white flex px-6 py-3 justify-between items-center rounded-md">
+        <div class="card-image mr-6">
+          <img class="bg-bgnav p-3 rounded-full" src="c1-assets/dog-cartoon.png" alt="dog-cartoon">
+        </div>
+        <div class="card-content">
+          <div class="flex items-center">
+            <img class="w-5 mb-2" src="c1-assets/star.png" alt="star rating">
+            <p class="font-semibold text-base ml-3 mb-2">4.5</p>
+          </div>
+          <h3 class="font-semibold text-xl mb-2">Dog</h3>
+          <p class="text-base font-medium mb-2">$32.90</p>
+        </div>
+      </div>
+
+      <div class="card8 col-span-1 bg-white flex px-6 py-3  justify-between items-center rounded-md">
+        <div class="card-image mr-6">
+          <img class="bg-bgnav p-3 rounded-full" src="c1-assets/fish-cartoon.png" alt="fish-cartoon">
+        </div>
+        <div class="card-content">
+          <div class="flex items-center">
+            <img class="w-5 mb-2" src="c1-assets/star.png" alt="star rating">
+            <p class="font-semibold text-base ml-3 mb-2">4.5</p>
+          </div>
+          <h3 class="font-semibold text-xl mb-2">Fish</h3>
+          <p class="text-base font-medium mb-2">$32.90</p>
+        </div>
+      </div>
+
+      <div class="card9 col-span-1 bg-white flex px-6 py-3  justify-between items-center rounded-md">
+        <div class="card-image mr-6">
+          <img class="bg-bgnav p-3 rounded-full" src="c1-assets/dog-cartoon.png" alt="dog-cartoon">
+        </div>
+        <div class="card-content">
+          <div class="flex items-center">
+            <img class="w-5 mb-2" src="c1-assets/star.png" alt="star rating">
+            <p class="font-semibold text-base ml-3 mb-2">4.5</p>
+          </div>
+          <h3 class="font-semibold text-xl mb-2">Dog</h3>
+          <p class="text-base font-medium mb-2">$32.90</p>
+        </div>
+      </div>
+
+      <div class="card10 hidden lg:block col-span-1 bg-white lg:flex px-6 py-3  justify-between items-center rounded-md">
+        <div class="card-image mr-6">
+          <img class="bg-bgnav p-3 rounded-full" src="c1-assets/bird-cartoon.png" alt="bird-cartoon">
+        </div>
+        <div class="card-content">
+          <div class="flex items-center">
+            <img class="w-5 mb-2" src="c1-assets/star.png" alt="star rating">
+            <p class="font-semibold text-base ml-3 mb-2">4.5</p>
+          </div>
+          <h3 class="font-semibold text-xl mb-2">Bird</h3>
+          <p class="text-base font-medium mb-2">$32.90</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     
     <!--Font Awesome kit-->
