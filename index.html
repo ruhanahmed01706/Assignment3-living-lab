@@ -19,6 +19,20 @@
         .bfont{
             font-family: "Sora", serif;
         }
+       
+        @keyframes example {
+        from {background-color: red;}
+        to {background-color: yellow;}
+        }
+
+      
+      .res{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: example;
+        animation-duration: 4s;
+      }
     </style>
     <!-- Config -->
     <script>
@@ -69,6 +83,10 @@
       </nav>
     </div>
   </header>
+
+  <div class="res rounded-full text-center flex justify-center items-center">
+    <p class="text-3xl animate-bounce">40% Off</p>
+  </div>
 
   <!-- banner Section -->
   <section class="container sm:mx-auto mt-20 relative">
@@ -132,6 +150,23 @@
       </div>
     </div>
   </div>
+
+  <section class="Extra-Section container sm:mx-auto">
+    <div class="hero min-h-screen">
+      <div class="hero-content flex-col lg:flex-row">
+        <img
+          src="c1-assets/cute-dog-mid.png"
+          class="max-w-sm rounded-lg shadow-2xl" />
+        <div class="space-y-6">
+          <h6 class="">What are cute pet names for dogs?</h6>
+          <p>Cute nicknames for dogs could include ``Puppy,'' ``Fluffybutt,'' ``Furball,'' ``Snuggles,'' ``Champ,'' ``Sweetie,'' ``Buddy,'' ``Cutie,'' ``Little One,'' or ``Paws.'' These endearing terms often reflect the affectionate bond between a dog and its owner.</p>
+          <button class="btn p-[10px_30px] rounded-lg bg-butn hover:underline">See More</button>
+        </div>
+        
+      </div>
+    </div>
+
+  </section>
 
 
     <!-- Trending Pet Products -->
@@ -341,7 +376,7 @@
 
 <div class="relative">
   <!-- News Section  -->
-<section class="bottom-40 left-32 absolute my-20 px-24 py-10  max-w-[80%] mx-auto bg-bgnav flex flex-col justify-center items-center sm:flex-row sm:justify-around sm:items-center">
+<section class="lg:bottom-40 lg:left-32 absolute my-20 px-24 py-10  max-w-[80%] mx-auto bg-bgnav flex flex-col justify-center items-center sm:flex-row sm:justify-around sm:items-center">
   <div>
     <img class="w-[190px] sm:w-[300px]" src="c1-assets/cute-pet-mid.png" alt="cute pet">
   </div>
