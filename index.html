@@ -12,7 +12,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="style.css"> -->
     <style>
         h1,h2, h3, h4, h5, h6{
             font-family: "ADLaM Display", serif;
@@ -31,6 +30,8 @@
                 bgnav: '#FFF9F4',
                 butn: '#FFDC26',
                 cabg: '#F9DF8A',
+                fubg: '#FFDC2680',
+
               },
             },
           },
@@ -277,6 +278,115 @@
     </div>
   </div>
 </section>
+
+<!-- low price section -->
+<section class="low-price  mt-[55px] sm:mt-[141px]">
+  <div class="low-price-container container sm:mx-auto">
+    <h1 class="text-3xl sm:text-4xl font-medium mb-[48px]">Everyday Low Price</h1>
+    <div class="cards sm:grid sm:grid-cols-3">
+      <div class="card1 sm:col-span-2  sm:w-11/12 mb-6 relative bg-gradient-to-r from-[#f7ccfb] to-[#afd2fd] w-[357px] h-[334px]  mx-auto rounded-lg p-9">
+        <div class="sm:flex sm:items-center">
+          <div>
+            <h4 class="hidden text-xl text-black sm:block">Under Price</h4>
+            <h3 class="text-3xl sm:text-4xl font-medium mb-3">Pet Grooming Mitt</h3>
+            <h1 class="text-4xl sm:text-6xl text-white sm:text-black">$7.99</h1>
+          </div>
+        </div>
+        <img class=" sm:w-[330px] sm:h-[350px] sm:right-0 sm:bottom-0 sm:top-0  w-52 h-64 absolute bottom-0 right-3" src="c1-assets/cute-dog-mid.png" alt="">
+      </div>
+
+      <div class="card2 relative bg-gradient-to-r from-[#f8f6f4] to-[#F9DF8A] w-[357px] h-[334px]  mx-auto rounded-lg p-9">
+        <h3 class="text-3xl font-medium mb-3">T-Shirt For Dogs</h3>
+        <h1 class="text-4xl text-black">$7.99</h1>
+        <img class="w-52 h-64 absolute bottom-0 right-3" src="c1-assets/cute-pet-mid.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- accordion asked question section with daisyui -->
+<section class="mt-20 accordion max-w-[80%] mx-auto mb-80">
+  <h1 class="text-3xl sm:text-4xl font-medium mb-[48px]">Frequently Asked Questions</h1>
+  <div class="collapse mb-4 collapse-arrow bg-base-200">
+    <input type="radio" name="my-accordion-2" checked="checked"/>
+    <div class="collapse-title text-xl font-semibold"><span class="text-red-500">[Special Question]</span> Can I payment with bKash or Nagad?</div>
+    <div class="collapse-content">
+      <p class="">We don't accept bKash and Nagad. Because bKash promote LGBTQ and Nagad committee are Hasina's broker. Specially Solaiman Shukhon.
+      </p>
+    </div>
+  </div>
+  <div class="collapse mb-4 collapse-arrow bg-base-200">
+    <input type="radio" name="my-accordion-2"/>
+    <div class="collapse-title text-xl font-semibold">How long does delivery take?</div>
+    <div class="collapse-content">
+      <p class="">Standard shipping takes 3-7 business days, while express shipping takes 1-3 business days.</p>
+    </div>
+  </div>
+  <div class="collapse mb-4 collapse-arrow bg-base-200">
+    <input type="radio" name="my-accordion-2" />
+    <div class="collapse-title text-xl font-semibold">What if I receive a damaged or incorrect product?</div>
+    <div class="collapse-content">
+      <p>If you receive a damaged or incorrect item, contact us within 7 days for a free replacement or refund.</p>
+    </div>
+  </div>
+  <div class="collapse mb-4 collapse-arrow bg-base-200">
+    <input type="radio" name="my-accordion-2" />
+    <div class="collapse-title text-xl font-semibold">What payment methods do you accept?</div>
+    <div class="collapse-content">
+      <p>We accept credit/debit cards, PayPal, Rocket and other secure payment gateway.</p>
+    </div>
+  </div>
+</section>
+
+
+<div class="relative">
+  <!-- News Section  -->
+<section class="bottom-40 left-32 absolute my-20 px-24 py-10  max-w-[80%] mx-auto bg-bgnav flex flex-col justify-center items-center sm:flex-row sm:justify-around sm:items-center">
+  <div>
+    <img class="w-[190px] sm:w-[300px]" src="c1-assets/cute-pet-mid.png" alt="cute pet">
+  </div>
+  <div>
+    <h3 class="text-3xl sm:text-4xl font-medium mb-3 sm:mb-5">Get Pawsome News!</h3>
+    <p class="text-center sm:mb-10">Exclusive training tips, ticks, <span class="sm:hidden"><br></span> product deals and more.</p>
+    <div class="flex flex-col justify-center  items-center sm:items-start">
+      <input class="border border-red-300 focus:outline-red-400 mt-2 sm:mb-8 rounded-lg bg-white p-2 sm:p-4 w-full" type="email" name="" id="" placeholder="Enter Your Email">
+      <button class="mt-2 p-[10px_40px] sm:p-[10px_50px] rounded-lg bg-butn hover:underline">Register</button>
+    </div>
+  </div>
+</section>
+
+<!-- Footer section -->
+ <section>
+  <footer class="footer bg-fubg text-base-content p-10 pt-56">
+    <nav>
+      <div class="flex items-center space-x-4 justify-center">
+        <img src="c1-assets/logo-footer.png" alt="">
+        <p class="text-2xl">Browse <span class="text-butn">4</span> Pets</p>
+      </div>
+      <p class="">Discover a world of treats, toys, and<br>essentials handpicked for your furry<br>friends</p>
+    </nav>
+    <nav>
+      <a class="link link-hover">Find a Pet</a>
+      <a class="link link-hover">Breeds</a>
+      <a class="link link-hover">Contact Us</a>
+    </nav>
+    <nav class="">
+      <p class="text-1xl">Follow Us</p>
+      <div class="grid grid-flow-col gap-4">
+        <a>
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a>
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a>
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </nav>
+  </footer>
+ </section>
+</div>
 
 
     
